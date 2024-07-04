@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    padding:50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+.section-one p{
+    display: inline-block;
+}
+
+.section-two{
+    padding:10px;
+    text-align:center;
+
+}
+
+.card-one,.card-two,.card-three,.card-four{
+    display:inline-block;
+    border:solid black 3px;
+    text-align: center;
+    width:130px;
+    length:300px;
+    padding: 5px;
+}
+
+.card-button{
+    padding:5px;
+    background-color: black;
+    color:white;
+}
+
+.section-three{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.section-three__table{
+    display:inline-block;
+    text-align: center;
+}
+
+.section-three__tableheading{
+    font-size: large;
+    font-weight: 700;
+
+}
+
+.section-three__button{
+    background-color: yellow;
+    width:350px;
+    margin-bottom: 10px;
+}
